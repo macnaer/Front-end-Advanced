@@ -1,0 +1,9 @@
+body {
+  background-color: pink; }
+  body h1 {
+    font-size: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: normal; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSx1QkFIVSxFQVVYO0VBUkQ7SUFJSSxnQkFBZTtJQUNmLHFCQUFhO0lBQWIsY0FBYTtJQUNiLG9CQUFtQixFQUNwQiIsImZpbGUiOiJidW5kbGUubWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiRjb2xvcjogcGluaztcclxuXHJcbmJvZHkge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICRjb2xvcjtcclxuXHJcbiAgaDEge1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgfVxyXG59Il19 */

@@ -1,0 +1,11 @@
+$color: pink;
+
+body {
+  background-color: $color;
+
+  h1 {
+    font-size: 20px;
+    display: flex;
+    font-weight: normal;
+  }
+}
