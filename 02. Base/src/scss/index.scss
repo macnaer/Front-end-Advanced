@@ -1,0 +1,35 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+body {
+    $bodyColor: pink;
+    background-color: $bodyColor;
+    h1 {
+        font-size: 20px;
+        display: flex;
+        font-weight: normal;
+    }
+    .block {
+        height: 50px;
+    }
+}
+
+.head {
+    $localVar: rgb(56, 88, 129);
+    .one {
+        background-color: $primaryColor1;
+        font-family: $font-regular;
+    }
+    .two {
+        background-color: $primaryColor2;
+        @include font(700, "Arial", 2rem);
+        color: $primaryTextColor1;
+    }
+    .three {
+        background-color: $localVar;
+        @include font(bold, "Arial", 1.4rem);
+    }
+    .four {
+        background-color: $primaryColor3;
+        @include font();
+    }
+}
