@@ -1,0 +1,16 @@
+// @mixin font {
+//     font: {
+//         weight: 700;
+//          family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+//          size: 1rem;
+//     }
+// }
+@mixin font($weight:500, $family:"Arial", $size:1rem) {
+    font: {
+        weight: $weight;
+        family: $family;
+        size: $size;
+    }
+}
+
+//darken lighten

@@ -1,0 +1,13 @@
+@for $item from 1 through 12{
+    .col-md-#{$item}{
+        font-size: $item * 2rem;
+    }
+}
+
+
+$fonts: (tiny: 12px, regular: 16px, semiBold: 18px);
+@each $name, $size in $fonts {
+    .#{$name}{
+        font-size: $size;
+    }
+}

@@ -1,0 +1,57 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+@import 'media';
+@import "functions";
+@import "loop";
+body {
+    $bodyColor: pink;
+    background-color: $bodyColor;
+    h1 {
+        font-size: 20px;
+        display: flex;
+        font-weight: normal;
+    }
+    .block {
+        height: 50px;
+    }
+}
+
+.head {
+    $localVar: rgb(56, 88, 129);
+    .one {
+        background-color: $primaryColor1;
+        font-family: $font-regular;
+    }
+    .two {
+        background-color: $primaryColor2;
+        @include font(700, "Arial", 2rem);
+        color: $primaryTextColor1;
+        @include lg {
+            background-color: $primaryColor3;
+            @include font(500, "Arial", 3rem)
+        }
+    }
+    .three {
+        background-color: $localVar;
+        @include font(bold, "Arial", 1.4rem);
+    }
+    .four {
+        // @extend .two;
+        background-color: $primaryColor3;
+        @include font();
+        margin: convertor(20px);
+    }
+}
+
+$pageStyle: nigh;
+body {
+    @if $pageStyle==day {
+        background-color: blue;
+    } @else if $pageStyle == night{
+        background-color: brown;
+    }
+    @else{
+        background-color: cadetblue;
+    }
+}
+
