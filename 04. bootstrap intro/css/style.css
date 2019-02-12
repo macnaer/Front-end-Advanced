@@ -1,0 +1,19 @@
+.block{
+    height: 50px;
+}
+
+.green{
+    background-color: greenyellow;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+.gray{
+    background-color: gray;
+}
