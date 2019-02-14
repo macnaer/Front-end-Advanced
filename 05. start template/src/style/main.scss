@@ -1,0 +1,38 @@
+
+
+/*
+* Custom Bootstrap
+*/
+@import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
+
+/*
+* Font-awesome
+*/
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+
+/*
+* Slick slider
+*/
+
+@import "modules/slick";
+
+
+/*
+* Custom
+*/
+@import "partials/colors";
+@import "partials/buttons";
+@import "partials/fonts";
+@import "partials/taxonomies";
+
+
+/*
+* Views
+*/
+@import "views/head";
+@import "views/head-internal";
+@import "views/main";
+
+
+
+

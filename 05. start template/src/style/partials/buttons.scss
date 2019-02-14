@@ -1,0 +1,128 @@
+@import "fonts";
+@import "colors.scss";
+.btn-biger{
+  width:256px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  color: $color-btn-4;
+  background-color: $color-btn-5;
+  border-radius: 4px;
+  border:1px solid #fff;
+  font-family: $font-bold;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 23px 0;
+  &:hover{
+    text-decoration: none;
+    color: $color-btn-4;
+    background-color: $color-btn-5-hover;
+  }
+}
+.btn-big{
+  display: inline-block;
+  width: 350px;
+  border-radius: 5px;
+  background-color: $color-btn-1;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  font-family: $font-regular;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  &:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: $color-btn-1-hover;
+  }
+}
+
+.btn-small{
+  display: inline-block;
+  width: 106px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: $font-bold;
+  color: $color-primary-3;
+  text-transform: uppercase;
+  background-color: $color-btn-2;
+  text-align: center;
+  padding: 10px 0;
+  &:hover{
+    background-color: $color-btn-2-hover;
+    text-decoration: none;
+    color: $color-primary-3;
+  }
+}
+
+.btn-smaler{
+  display: inline-block;
+  width: 95px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  font-family: $font-regular;
+  background-color: $color-btn-3;
+  text-transform: uppercase;
+  padding: 8px 0;
+  i{
+    float: left;
+    padding: 2px 10px 0 10px;
+    font-size: 14px;
+  }
+  &:hover{
+    background-color: $color-btn-3-hover;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.btn-live-chat{
+  display: inline-block;
+  width: 120px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 12px;
+  font-family: $font-regular;
+  text-transform: uppercase;
+  color: $color-primary-2;
+  text-align: center;
+  padding: 8px 0px;
+
+  i{
+    color: $color-primary-2;
+    float: left;
+    padding: 2px 0 0 10px;
+
+  }
+  &:hover{
+    background-color: $color-btn-4-hover;
+    color: $color-primary-2;
+    text-decoration: none;
+  }
+}
+.btn-transparent{
+  width: 130px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid $color-btn-4;
+  opacity: 0.95;
+  color: $color-btn-4;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: $font-regular;
+  padding: 7px 0 8px;
+  i{
+    margin: 0 4px 0 10px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  &:hover{
+    background-color: $color-btn-4-hover;
+    color: $color-primary-2;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,79 @@
+.faq{
+  padding: 50px 0;
+    .faq-content{
+      h1{
+        text-align: center;
+      }
+      input[type='checkbox'] {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        display: block;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        cursor: pointer;
+        font-family: $font-bold;
+        color: $font-color-2;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        text-transform: uppercase;
+        width: 100%;
+        @media only screen and (max-width: 768px) {
+          font-size: 14px;
+          line-height: 26px;
+        }
+      }
+      input[type='checkbox']:before {
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -moz-transition: ease-in 0.2s;
+        -o-transition: ease-in 0.2s;
+        -webkit-transition: ease-in 0.2s;
+        transition: ease-in 0.2s;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 5px solid #000;
+        margin-right: 30px;
+      }
+      input[type='checkbox']:after {
+        content: attr(title);
+      }
+      input[type='checkbox']:checked:before {
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      input[type='checkbox']:checked ~ p {
+        height: 50px;
+      }
+
+      p {
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -moz-transition: ease-in 0.2s;
+        -o-transition: ease-in 0.2s;
+        -webkit-transition: ease-in 0.2s;
+        transition: ease-in 0.2s;
+        height: 0;
+        overflow: hidden;
+        margin: 5px;
+        font-family: $font-regular;
+        font-size: 14px;
+        font-weight:400;
+        line-height: 22px;
+      }
+
+      div {
+      }
+
+    }
+}
